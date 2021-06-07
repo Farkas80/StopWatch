@@ -1,0 +1,16 @@
+$primary-color: #E05E89;
+$secondary-color: #DEFF30;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@mixin transition-ease {
+    transition: all 0.5s ease-in-out;
+} 
+
+@mixin corner($radius) {
+    border-radius: $radius;
+}

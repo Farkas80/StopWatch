@@ -3,14 +3,14 @@
 body {
     background: $primary-color;
     color: set-text-color($secondary-color);
-    height: 50vh;
+    height: 90%;
     font-family: 'Courier New', Courier, monospace;
 }
 
 .wrapper {
     color: $secondary-color;
     width: 80%;
-    margin: auto;
+    margin: 20% auto;
     text-align: center;
     }
 

@@ -8,14 +8,14 @@
 body {
   background: #E05E89;
   color: set-text-color(#DEFF30);
-  height: 50vh;
+  height: 90%;
   font-family: 'Courier New', Courier, monospace;
 }
 
 .wrapper {
   color: #DEFF30;
   width: 80%;
-  margin: auto;
+  margin: 20% auto;
   text-align: center;
 }
 

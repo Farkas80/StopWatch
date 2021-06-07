@@ -4,15 +4,38 @@ body {
     background: $primary-color;
     color: set-text-color($secondary-color);
     height: 50vh;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .wrapper {
     color: $secondary-color;
     width: 80%;
+    margin: auto;
     text-align: center;
+    }
+
+h1, p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.5em;
+}
+
+#seconds, #tens {
+    font-size: 1.5em;
 }
 button {
     @include corner(5px);
     background: $primary-color;
-
+    color: $tercary-color;
+    border: solid 1px $tercary-color;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1.2em;
+    padding: 18px 10px;
+    width: 150px;
+    margin: 10px;
+        &:hover {
+            @include transition-ease;
+            background: $tercary-color;
+            color: $primary-color;
+        }
 }

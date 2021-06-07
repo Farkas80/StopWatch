@@ -9,15 +9,41 @@ body {
   background: #E05E89;
   color: set-text-color(#DEFF30);
   height: 50vh;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .wrapper {
   color: #DEFF30;
   width: 80%;
+  margin: auto;
   text-align: center;
+}
+
+h1, p {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 2.5em;
+}
+
+#seconds, #tens {
+  font-size: 1.5em;
 }
 
 button {
   border-radius: 5px;
   background: #E05E89;
+  color: #5E7970;
+  border: solid 1px #5E7970;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 1.2em;
+  padding: 18px 10px;
+  width: 150px;
+  margin: 10px;
+}
+
+button:hover {
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  background: #5E7970;
+  color: #E05E89;
 }

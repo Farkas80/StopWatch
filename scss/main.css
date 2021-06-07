@@ -8,4 +8,16 @@
 body {
   background: #E05E89;
   color: set-text-color(#DEFF30);
+  height: 50vh;
+}
+
+.wrapper {
+  color: #DEFF30;
+  width: 80%;
+  text-align: center;
+}
+
+button {
+  border-radius: 5px;
+  background: #E05E89;
 }

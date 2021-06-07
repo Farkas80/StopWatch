@@ -3,4 +3,16 @@
 body {
     background: $primary-color;
     color: set-text-color($secondary-color);
+    height: 50vh;
+}
+
+.wrapper {
+    color: $secondary-color;
+    width: 80%;
+    text-align: center;
+}
+button {
+    @include corner(5px);
+    background: $primary-color;
+
 }

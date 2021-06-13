@@ -6,8 +6,7 @@
 }
 
 body {
-  background: #E05E89;
-  color: set-text-color(#DEFF30);
+  color: #DEFF30;
   height: 90%;
   font-family: 'Courier New', Courier, monospace;
 }
@@ -29,21 +28,15 @@ h1, p {
 }
 
 button {
-  border-radius: 5px;
-  background: #E05E89;
-  color: #5E7970;
-  border: solid 1px #5E7970;
-  text-decoration: none;
+  border-radius: 0.25em;
+  font-size: 3rem;
+  display: inline-block;
   cursor: pointer;
-  font-size: 1.2em;
-  padding: 18px 10px;
-  width: 150px;
-  margin: 10px;
-}
-
-button:hover {
-  -webkit-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
-  background: #5E7970;
-  color: #E05E89;
+  text-decoration: none;
+  color: #39FF14;
+  border: #39FF14 4px solid;
+  padding: 0.25em 1em;
+  text-shadow: 0 0 0.125em white, 0 0 0.25em currentColor;
+  -webkit-box-shadow: inset 0 0 1em 0 #39FF14, 0 0 1em 0 #39FF14;
+          box-shadow: inset 0 0 1em 0 #39FF14, 0 0 1em 0 #39FF14;
 }

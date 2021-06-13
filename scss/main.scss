@@ -1,8 +1,7 @@
 @import 'config';
 
 body {
-    background: $primary-color;
-    color: set-text-color($secondary-color);
+    color: $secondary-color;
     height: 90%;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -23,19 +22,17 @@ h1, p {
     font-size: 1.5em;
 }
 button {
-    @include corner(5px);
-    background: $primary-color;
-    color: $tercary-color;
-    border: solid 1px $tercary-color;
-    text-decoration: none;
+    @include corner(0.25em);
+    font-size: 3rem;
+    display: inline-block;
     cursor: pointer;
-    font-size: 1.2em;
-    padding: 18px 10px;
-    width: 150px;
-    margin: 10px;
-        &:hover {
-            @include transition-ease;
-            background: $tercary-color;
-            color: $primary-color;
-        }
+    text-decoration: none;
+    color: $primary-color;
+    border: $primary-color 4px solid;
+    padding: 0.25em 1em;
+    text-shadow: 0 0 0.125em hsl(0, 0%, 100% / 0.5),
+                 0 0 0.25em currentColor; 
+        
+    box-shadow: inset 0 0 1em 0 $primary-color,
+                0 0 1em 0 $primary-color;
 }

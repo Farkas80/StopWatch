@@ -56,15 +56,15 @@ window.onload = function () {
     
     }
 
-    let changeColor = () => {
+    let randomColor = () => {
         let r = Math.floor(Math.random() * 255);
         let g = Math.floor(Math.random() * 255);
         let b = Math.floor(Math.random() * 255);
-        let color = `rgb(${r}, ${g}, ${b})`;
-        console.log(color)
-        document.body.style.background = color;
+        let color = `rgb(${r}, ${g}, ${b})`; 
+        document.body.style.background = color;    
     }
 
-    setInterval(changeColor, 5000);
+    
+    setInterval(randomColor, 5000);
   
   }

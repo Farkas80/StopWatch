@@ -1,4 +1,4 @@
-$primary-color: #E05E89;
+$primary-color: #39FF14;
 $secondary-color: #DEFF30;
 $tercary-color: #5E7970;
 
@@ -14,4 +14,12 @@ $tercary-color: #5E7970;
 
 @mixin corner($radius) {
     border-radius: $radius;
+}
+
+@function set-text-color($color) {
+    @if(lightness($color) > 40%) {
+        @return #000;
+    } @else {
+        @return #fff;
+    }
 }

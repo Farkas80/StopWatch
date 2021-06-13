@@ -56,7 +56,7 @@ window.onload = function () {
     
     }
 
-    let randomColor = () => {
+    /*let randomColor = () => {
         let r = Math.floor(Math.random() * 255);
         let g = Math.floor(Math.random() * 255);
         let b = Math.floor(Math.random() * 255);
@@ -65,6 +65,6 @@ window.onload = function () {
     }
 
     
-    setInterval(randomColor, 5000);
+    setInterval(randomColor, 5000);*/
   
   }
